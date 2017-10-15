@@ -86,6 +86,7 @@ enum class Stream {
   Vrv,
   Wakanim,
   Youtube,
+  AniLinkz,
 };
 
 struct StreamData {

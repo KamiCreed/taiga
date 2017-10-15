@@ -140,6 +140,15 @@ static const std::vector<StreamData> stream_data{
     std::regex("youtube\\.com/watch"),
     std::regex(u8"YouTube|(?:\u25B6 )?(.+) - YouTube"),
   },
+  // AniLinkz
+  {
+    Stream::AniLinkz,
+    taiga::kStream_AniLinkz,
+    L"AniLinkz",
+    L"http://anilinkz.to/",
+    std::regex("anilinkz\.[a-z]+/.*"),
+    std::regex("(.+) - AniLinkz"),
+  },
 };
 
 const std::vector<StreamData>& GetStreamData() {

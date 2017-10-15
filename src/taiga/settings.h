@@ -110,6 +110,8 @@ enum AppSettingName {
   kStream_Vrv,
   kStream_Wakanim,
   kStream_Youtube,
+  kStream_AniLinkz,
+
 
   // Sharing
   kShare_Http_Enabled,
